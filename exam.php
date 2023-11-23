@@ -51,7 +51,7 @@
             <td><input type="button" value="조회" onclick="location.href='score.php?num=<?=$row["ex_num"]?>'"></td>
             <td><input type="button" value="수정" onclick="location.href='ex_write.php?num=<?=$row["ex_num"]?>'">
                 <input type="button" value="삭제" onclick="location.href='ex_delete.php?num=<?=$row["ex_num"]?>'"> </td>
-        </tr>
+        </tr> 
 <?php
         }
     } catch (PDOException $e) {

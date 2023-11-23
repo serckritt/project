@@ -104,7 +104,7 @@
     } catch (PDOException $e) {
         exit($e->getMessage());
     }
-?>
+?> 
   </table>
     </div>
     <br>

@@ -17,7 +17,7 @@
         $row = $query->fetch(PDO::FETCH_ASSOC);
 
         if($row["count(*)"]==0 || $num==$st_num){
-
+ 
         $db->exec("SET foreign_key_checks = 0;
                   update students set st_num = '$num', st_name = '$name'
                   where st_num = $st_num;

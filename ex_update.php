@@ -63,7 +63,7 @@
           $row2 = $query2->fetch(PDO::FETCH_ASSOC);
 
           if($row2["count(*)"]==0){
-
+ 
           $db->exec("insert into score (ex_num, st_num, sb_num)
                      values ('$ex_num','$st_num','$sb_num')");
           }

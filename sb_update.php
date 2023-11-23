@@ -11,7 +11,7 @@
 
         $query = $db->query("select count(*) from subject where sb_name = '$name' or sb_num = '$num'");
         $row = $query->fetch(PDO::FETCH_ASSOC);
-
+ 
         if($row["count(*)"]==0 || $num==$sb_num || $name==$sb_name){
 
         $db->exec("SET foreign_key_checks = 0;

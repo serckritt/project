@@ -89,7 +89,7 @@
               <input type="radio" name="grade" value="2"<?php if($grade==2){?>checked<?php } ?>>2학년
               <input type="radio" name="grade" value="3"<?php if($grade==3){?>checked<?php } ?>>3학년
                 <br><?php if($num){ ?>※학년 수정 시 이전 정보는 삭제되며 되돌릴 수 없습니다!!※ <?php } ?> </td>
-        </tr>
+        </tr> 
         <tr>
             <th>과목</th>
             <td>

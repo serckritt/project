@@ -10,3 +10,4 @@ COLLATE='utf8_general_ci'
 ENGINE=InnoDB
 AUTO_INCREMENT=10
 ;
+ 

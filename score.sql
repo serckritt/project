@@ -13,3 +13,4 @@ CREATE TABLE `score` (
 COLLATE='utf8_general_ci'
 ENGINE=InnoDB
 ;
+ 

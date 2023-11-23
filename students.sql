@@ -6,3 +6,4 @@ CREATE TABLE `students` (
 COLLATE='utf8_general_ci'
 ENGINE=InnoDB
 ;
+ 

@@ -1,4 +1,4 @@
-<?php
+<?php 
   $num   = $_REQUEST["num"  ];
 
   try {

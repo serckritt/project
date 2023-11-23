@@ -18,5 +18,5 @@
 
   header("Location:students.php");
   exit();
-
+ 
 ?>

@@ -15,7 +15,7 @@
         $db->exec("insert into subject (sb_num, sb_name)
                    values ('$num', '$name')");
         }
-
+ 
     } catch (PDOException $e) {
         exit($e->getMessage());
     }

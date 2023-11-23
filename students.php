@@ -41,7 +41,7 @@
         require("db_connect.php");
         $query = $db->query("select * from students order by st_num");
         while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
-?>
+?> 
         <tr>
             <td><?=floor($row["st_num"]/10000)?>학년</td>
             <td><?=floor($row["st_num"]%10000/100)?>반</td>

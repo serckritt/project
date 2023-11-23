@@ -38,7 +38,7 @@
         require("db_connect.php");
         $query = $db->query("select * from subject order by sb_num");
         while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
-?>
+?> 
         <tr>
             <td><?=$row["sb_num"]?></td>
             <td><?=$row["sb_name"]?></td>

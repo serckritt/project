@@ -15,7 +15,7 @@
       exit($e->getMessage());
   }
 
-
+ 
   header("Location:subject.php");
   exit();
 

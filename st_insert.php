@@ -19,7 +19,7 @@
         $db->exec("insert into students (st_num, st_name)
                    values ('$st_num', '$st_name')");
 
-
+ 
         }
 
     } catch (PDOException $e) {

@@ -15,7 +15,7 @@
   $score[11] = isset($_REQUEST["12"]) ? $_REQUEST["12" ]: "";
 
 
-
+ 
 
   if ($st_num && $ex_num && ($score[0] || $score[1] ||$score[2] ||$score[3] ||$score[4] ||$score[5] ||$score[6] ||$score[7] ||$score[8] ||$score[9] ||$score[10] ||$score[11])) {
 

@@ -17,7 +17,7 @@
         }
     } catch (PDOException $e) {
         exit($e->getMessage());
-    }
+    } 
   }
 ?>
 <!doctype html>
