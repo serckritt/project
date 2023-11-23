@@ -1,0 +1,12 @@
+CREATE TABLE `exam` (
+	`ex_num` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`ex_name` VARCHAR(40) NULL DEFAULT NULL COLLATE 'utf8_general_ci',
+	`ex_start` VARCHAR(20) NULL DEFAULT NULL COLLATE 'utf8_general_ci',
+	`ex_end` VARCHAR(20) NULL DEFAULT NULL COLLATE 'utf8_general_ci',
+	`ex_grade` INT(11) UNSIGNED NOT NULL,
+	PRIMARY KEY (`ex_num`) USING BTREE
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=10
+;
